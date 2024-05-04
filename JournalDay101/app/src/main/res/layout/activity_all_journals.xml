@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:background="@color/white"
+            android:id="@+id/btnHomeBack"
+            android:onClick="buttonClick2"
+            >
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="28dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="28dp">
+
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:hint="1 de enero del 2024"
+                            android:background="@drawable/rounded_corners"
+                            android:inputType="textPersonName" />
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:hint="2 de enero del 2024"
+                            android:background="@drawable/rounded_corners"
+                            android:inputType="textPersonName" />
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:hint="3 de enero del 2024"
+                            android:background="@drawable/rounded_corners"
+                            android:inputType="textPersonName" />
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:hint="4 de enero del 2024"
+                            android:background="@drawable/rounded_corners"
+                            android:inputType="textPersonName" />
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:hint="5 de enero del 2024"
+                            android:background="@drawable/rounded_corners"
+                            android:inputType="textPersonName" />
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp" />
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
